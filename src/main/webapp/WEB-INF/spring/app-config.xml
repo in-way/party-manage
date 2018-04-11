@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ @(#) app-config.xml
+  ~ 版权声明 厦门畅享信息技术有限公司, 版权所有 违者必究
+  ~
+  ~ <br> Copyright:  Copyright (c) 2018
+  ~ <br> Company:厦门畅享信息技术有限公司
+  ~ <br> @author weixl
+  ~ <br> 2018-01-16 14:04:59
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-2.5.xsd
+ 	http://www.springframework.org/schema/mvc
+ 	http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
+   <description>party</description>
+
+</beans>

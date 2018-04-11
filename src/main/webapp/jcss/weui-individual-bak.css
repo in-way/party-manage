@@ -1,0 +1,119 @@
+/*
+*  weui框架特殊化样式
+*/
+.weui-cell{
+    padding: 12px 15px;
+}
+.weui-label{
+    /*color: #666;*/
+}
+
+.weui-input{
+    /*text-align: right;*/
+}
+.weui-input[type='datetime-local']{
+    position: relative;
+    top: -2px;
+}
+.weui-cell:before{
+    left: 0;
+}
+.weui-cell_select .weui-select{
+    /*padding-right: 15px;*/
+    color: #999;
+}
+.weui-btn+.weui-btn{
+    margin-top: 0;
+    margin-left: 2%;
+}
+.weui-cells_radio .weui-check:checked+.weui-icon-checked:before{
+    color: #0e7dc5;
+}
+.weui-cells_checkbox .weui-check:checked+.weui-icon-checked:before{
+    color: #0e7dc5;
+}
+.weui-grid:before,.weui-grid:after{
+    border: none;
+    width: 0;
+}
+
+.weui-uploader__input-box{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 2px solid #b7b8bc;
+    margin: 0;
+}
+.weui-uploader__input-box:before{
+    height: 14px;
+    background: #b7b8bc;
+}
+.weui-uploader__input-box:after{
+    width: 14px;
+    background: #b7b8bc;
+}
+.weui-uploader__input-box-on,.weui-uploader__input-box-on:active{
+    border-color: #2681c6;
+}
+.weui-uploader__input-box-on:before,.weui-uploader__input-box-on:active:before{
+    height: 14px;
+    background: #2681c6;
+}
+.weui-uploader__input-box-on:after,.weui-uploader__input-box-on:active:after{
+    width: 14px;
+    background: #2681c6;
+}
+.weui-uploader__file{
+    position: relative;
+    border: 1px solid #ccc;
+    width: 77px;
+    height: 77px;
+}
+.weui-uploader__file i.img-i{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.weui-uploader__file_result:before{
+    content: '';
+    background: none;
+}
+
+
+.weui-dialog{
+    width:70%;
+}
+.weui-dialog__bd{
+    min-height: 30px;
+}
+.weui-dialog__bd:first-child{
+    padding: 1rem 20px .7rem;
+}
+.weui-dialog__ft{
+    line-height: 38px;
+}
+.weui-btn_disabled.weui-btn_primary{
+    background-color: #999!important;
+}
+
+.weui-uploader .weui-uploader__hd{
+    position: relative;
+    /*border-bottom: 1px dotted #d9d9d9;*/
+}
+
+
+/* 党建项目 补充 180105 */
+.party-menu .weui-grid{
+    padding: 8px;
+}
+.weui-grid__icon{
+    width: 60px;
+    height: 60px;
+}
+.weui-btn_mini{
+    padding: 0 0.5em;
+    line-height: 2.6;
+    font-size: 15px;
+}

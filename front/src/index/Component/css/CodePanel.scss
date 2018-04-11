@@ -1,0 +1,41 @@
+/*!
+ * @(#) CodePanel.scss
+ * 版权声明 厦门畅享信息技术有限公司, 版权所有 违者必究
+ *
+ * <br> Copyright:  Copyright (c) 2018
+ * <br> Company:厦门畅享信息技术有限公司
+ * <br> @author weixl
+ * <br> 2018-03-30 10:27:22
+ */
+.twoCode-dl{
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    padding-left: 30px;
+    dt{
+        width: 300px;
+        height: 300px;
+        //padding: 10px;
+        margin-right: 20px;
+        float: left;
+    }
+    dd{
+        float: left;
+        width: 140px;
+        margin-top: 15px;
+        b{
+            font-size: 16px;
+            margin: 10px 0 25px;
+            display: block;
+        }
+        p{
+            line-height: 26px;
+            font-size: 14px;
+        }
+        button{
+            margin-top: 55px;
+        }
+    }
+}
+
+

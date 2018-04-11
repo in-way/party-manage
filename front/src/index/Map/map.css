@@ -1,0 +1,30 @@
+.btn-list{
+    position: absolute;
+    right: 35px;
+    z-index: 999;
+    top: 150px;
+    margin: 0;
+    padding: 0;
+}
+.btn-list li{
+    list-style: none;
+}
+.btn-list button{
+    width: 60px;
+    padding: 9px;
+    margin-bottom: 18px;
+    background-color: #fff!important;
+    border-radius: 6px;
+    border: 1px solid #666;
+    height: 60px;
+    font: normal 16px/20px "Microsoft YaHei";
+}
+.btn-list button:hover,.btn-list button:active{
+    background-color: #fff!important;
+}
+.searchInputGroup{
+    display: none!important;
+}
+.searchBtn {
+    display: none!important;
+}
